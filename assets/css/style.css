@@ -1,0 +1,40 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar-bg{
+    background-color: #F1F3FF;
+    padding-right: 4%;
+    padding-left: 4%;
+}
+
+.logo{
+    display: flex;
+    padding: 20px;
+}
+
+ul{
+    list-style: none;
+}
+
+.nav_list{
+    display: flex;
+    padding: 20px;
+    gap: 10%;
+    margin: 0;
+}
+
+.section1{
+    background-color: #F1F3FF;
+    height: 500px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    float: right;
+    justify-content: space-between;
+}
+
+.car_image{
+    width: 50%;
+    float: right;
+}
+
