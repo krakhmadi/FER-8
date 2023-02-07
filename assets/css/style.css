@@ -1,6 +1,7 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
+
 .navbar-bg{
     background-color: #F1F3FF;
     padding-right: 4%;
@@ -23,71 +24,88 @@ body{
     margin: 0;
 }
 
-.section1{
+.hero-section{
     display: flex;
     /* justify-content: space-evenly; */
     background-color: #F1F3FF;
     height: 500px;
-    background-repeat: no-repeat;
-    background-size: contain;
-    flex: wrap;
+    /* background-repeat: no-repeat;
+    background-size: contain; */
     margin-bottom: 5rem;
-}
-.item{
-    padding-top: 5rem;
-    padding-left: 4rem;
-}
-.title1{
-    font-size: 50px;
-    margin-bottom: 2rem;
 }
 .item1{
-    padding-right: 1rem;
-}
-a{
-    font-size: 14px;
-    margin-bottom: 2rem;
-}
-.btn{
-    margin-top: 2rem;
-}
-.item2{
     display: flex;
-    flex-grow: 1;
-    float: right;
+    align-items: center;
 }
-.car_image{
-    width: 100%;
-    height: auto;
-}
-
-.section2{
-    display: flex;
-    justify-content: center;
-    padding-left: 12rem;
-    padding-right: 12rem;
-    margin-bottom: 5rem;
-}
-.item4{
-    padding-right: 5rem;
-}
-.subitem4{
-    margin-top: 1rem;
-}
-
-.section3{
+.subitem1{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    gap: 1rem;
+    padding-left: 12rem;
+    padding-right: 12rem;
+}
+.item2{
+    display: flex;
+    align-items: flex-end;
+}
+.car_image{
+    width: auto;
+    height: auto;
+}
+
+.services{
+    display: flex;
+    justify-content: center;
+    gap: 8rem;
     padding-left: 12rem;
     padding-right: 12rem;
     margin-bottom: 5rem;
-    gap: 24px;
 }
-.subitem6{
+.services-content{
     display: flex;
-    flex-direction: row;
+    justify-content: center;
+    flex-direction: column;
     align-items: flex-start;
+    padding: 4rem;
+}
+.services-subcontent{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+}
+.list-services{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    padding: 0;
+    list-style-type: none;
+    margin-top: 1rem;
+}
+.list-item-service{
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.why-us{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    padding-left: 12rem;
+    padding-right: 12rem;
+    margin-bottom: 5rem;
+}
+.why-us-list{
+    display: flex;
+    align-items: center;
+}
+.why-us-sublist{
+    display: flex;
+    align-items: flex-end;
     gap: 16px;
 }
 .list-item-6-1{
@@ -95,8 +113,6 @@ a{
     flex-direction: column;
     align-items: flex-start;
     gap: 1rem;
-    height: 268px;
-    width: 268px;
     left: 0px;
     top: 0px;
     border: 1px solid #D0D0D0;
@@ -105,4 +121,15 @@ a{
     padding: 24px;
 }
 
-
+.testimonial{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    padding-left: 12rem;
+    padding-right: 12rem;
+    margin-bottom: 5rem;
+}
+.testimonial-title{
+    text-align: center;
+}
